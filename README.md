@@ -1,6 +1,6 @@
 # paiza Online Hackathon 7
 
-## C#
+## C\#
 
 #### EYE
 <br>
@@ -19,4 +19,3 @@
 #### OTHER
 [テンプレート] (https://github.com/mystasly48/poh7/blob/master/C%23/template.cs)
 
------
