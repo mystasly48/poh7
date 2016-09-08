@@ -3,10 +3,16 @@
 ## C\# 
 
 #### EYE
-<br>
+[つり目] (https://github.com/mystasly48/poh7/blob/master/C%23/tsurime.cs)
 
 #### HAIR
-<br>
+[ショートヘア] (https://github.com/mystasly48/poh7/blob/master/C%23/shorthair.cs)
+
+[ロングヘア] (https://github.com/mystasly48/poh7/blob/master/C%23/longhair.cs)
+
+[ポニーテール] (https://github.com/mystasly48/poh7/blob/master/C%23/ponytail.cs)
+
+[ツインテール] (https://github.com/mystasly48/poh7/blob/master/C%23/twintail.cs)
 
 #### CLOTHES
 [ニーソ] (https://github.com/mystasly48/poh7/blob/master/C%23/kneesocks.cs)
