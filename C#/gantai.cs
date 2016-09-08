@@ -16,7 +16,6 @@ public class Hello {
     for (int i = 0; i < haveBookCount; i++) {
       for (int j = 0; j < sellBookCount; j++) {
         if (haveBooks[i] == sellBooks[j]) {
-          //buyBooks = buyBooks.Replace(sellBooks[j].ToString() + " ", "");
           buyBooks[j] = 0;
         }
       }
