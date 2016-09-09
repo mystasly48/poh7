@@ -10,7 +10,9 @@ public class Hello {
     for (int i = 0; i < count; i++) appendTimes[i] = overtimes[i] / 3;
     for (int i = 0; i < count; i++) sleepTimes[i] = sleepTime - appendTimes[i];
     for (int i = 0; i < count; i++) {
-      if ()
+      if (sleepTimes[i] >= 2400) {
+        sleepTimes[i] -= 2400;
+      }
     }
   }
 }
