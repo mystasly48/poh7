@@ -17,6 +17,8 @@
 #### CLOTHES
 [ニーソ] (https://github.com/mystasly48/poh7/blob/master/C%23/kneesocks.cs)
 
+[メイド服] (https://github.com/mystasly48/poh7/blob/master/C%23/maid.cs)
+
 #### SPECIAL
 [猫耳] (https://github.com/mystasly48/poh7/blob/master/C%23/nekomimi.cs)
 
@@ -24,4 +26,3 @@
 
 #### OTHER
 [テンプレート] (https://github.com/mystasly48/poh7/blob/master/C%23/template.cs)
-
