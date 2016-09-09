@@ -1,18 +1,14 @@
 using System;
 public class Hello {
   public static void Main() {
-    var sleepTime = 2500;
+    var sleepTime = new TimeSpan(0, 1500, 0);
     var count = int.Parse(Console.ReadLine());
-    var overTimes = new int[count];
-    var appendTimes = new int[count];
-    var sleepTimes = new int[count];
-    for (int i = 0; i < count; i++) overtimes[i] = int.Parse(Console.ReadLine());
-    for (int i = 0; i < count; i++) appendTimes[i] = overtimes[i] / 3;
-    for (int i = 0; i < count; i++) sleepTimes[i] = sleepTime - appendTimes[i];
-    for (int i = 0; i < count; i++) {
-      if (sleepTimes[i] >= 2400) {
-        sleepTimes[i] -= 2400;
-      }
-    }
+    var overTimes = new TimeSpan[count];
+    var appendTimes = new TimeSpan[count];
+    var resultTimes = new TimeSpan[count];
+    for (int i = 0; i < count; i++) overTimes[i] = new TimeSpan(0, int.Parse(Console.ReadLine()), 0);
+    for (int i = 0; i < count; i++) appendTimes[i] = new TimeSpan(0, (int)(overTimes[i].TotalMinutes / 3), 0);
+    for (int i = 0; i < count; i++) resultTimes[i] = new TimeSpan(0, (int)(sleepTime.TotalMinutes - appendTimes[i].TotalMinutes), 0);
+    for (int i = 0; i < count; i++) Console.WriteLine(resultTimes[i].ToString(@"hh\:mm"));
   }
 }
